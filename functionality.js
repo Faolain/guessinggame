@@ -110,7 +110,6 @@ $(document).ready(function(){
   var content = $('#content');
   var game = new Guess(content);
 
-  content.text(game.num);
 
   $('.submit').on('click', function(e){
     e.preventDefault();
