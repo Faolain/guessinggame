@@ -82,12 +82,12 @@ function Guess(content){
       this.count++;
       if(this.count == 5)
       {
-        content.text(" Attempts " + this.count + "/" + 5);
+        content.text("Attempts " + this.count + "/" + 5);
         alert("Sorry you didn't get it this time, hit new game to try again.");
       } else {
         this.checkDiff(num);
         this.choices.push(num);
-        content.text(this.num + " Tries" + this.count + "/" + 5);
+        content.text("Tries " + this.count + "/" + 5);
       }
     }
     }
