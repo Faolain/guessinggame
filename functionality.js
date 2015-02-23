@@ -82,7 +82,7 @@ function Guess(content){
       this.count++;
       if(this.count == 5)
       {
-        content.text(this.num + " Attempts " + this.count + "/" + 5);
+        content.text(" Attempts " + this.count + "/" + 5);
         alert("Sorry you didn't get it this time, hit new game to try again.");
       } else {
         this.checkDiff(num);
