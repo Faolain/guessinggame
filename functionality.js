@@ -98,11 +98,8 @@ function Guess(content){
     this.message = "";
     this.genNum();
     this.choices = [];
-    content.text(this.num);
     this.color = "neutral";
   };
-
-  content.text(this.num);
 }
 
 
